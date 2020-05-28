@@ -1,0 +1,9 @@
+ng add @scullyio/init
+Fix app.modules import (from 'ng-lib' to 'ng-lib-v8')
+ng build
+npm run scully
+cd dist/static 
+http-server -p 8000
+npm run scully serve
+
+
